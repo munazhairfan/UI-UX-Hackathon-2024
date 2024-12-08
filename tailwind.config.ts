@@ -35,9 +35,9 @@ const config: Config = {
       },
       screens:{
         'sm' : {'max': '480px'},
-        'md' : {'min': '481px'},
-        'lg' : {'min': '769px'},
-        'xl' : {'min': '1025px'},
+        'md' : {'max': '481px'},
+        'lg' : {'max': '769px'},
+        'xl' : {'max': '1025px'},
       }
     },
   },
