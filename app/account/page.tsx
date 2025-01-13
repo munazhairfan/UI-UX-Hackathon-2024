@@ -8,7 +8,7 @@ const page = () => {
     <div className="font-poppins">
       <Header />
       <div>
-        <div className="h-[316px] w-full bg-components_bg flex justify-center items-center">
+        <div className="lg:h-[316px] w-full bg-components_bg flex justify-center items-center">
           <div className="flex justify-between items-center flex-col">
             <Image
               src={"/images/logo.png"}
@@ -32,25 +32,24 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[760px] flex justify-evenly sm:h-[1300px] sm:flex-col
-        md:h-[1300px] md:flex-col lg:h-[1300px] lg:flex-col">
-          <div className="w-[608px] sm:w-[400px] h-[630px] flex flex-col justify-between p-16">
+        <div className="w-full lg:h-[760px] flex justify-evenly xs:flex-col lg:flex-row">
+          <div className="lg:w-[608px] h-[630px] flex flex-col justify-between p-16">
             <div>
               <p className="font-semibold text-[36px] leading-[54px]">Log In</p>
             </div>
             <div className="h-[121px] flex flex-col justify-between">
               <label className="font-medium">Username or email address</label>
-              <input className="w-[423px] sm:w-[400px] h-[75px] border-2 rounded-[10px]"></input>
+              <input className="lg:w-[423px] h-[75px] border-2 rounded-[10px]"></input>
             </div>
             <div className="h-[121px] flex flex-col justify-between">
               <label className="font-medium">Password</label>
-              <input className="w-[423px] sm:w-[400px] h-[75px] border-2 rounded-[10px]"></input>
+              <input className="lg:w-[423px] h-[75px] border-2 rounded-[10px]"></input>
             </div>
             <div className="flex items-center space-x-[12px]">
               <input type="checkbox" className="h-[27px] w-[30px]" />
               <label className="text-gray-700">Remember me</label>
             </div>
-            <div className="h-[64px] flex w-[423px] sm:w-[400px] justify-between items-center">
+            <div className="lg:h-[64px] flex lg:w-[423px] justify-between items-center xs:flex-col">
               <button
                 className="w-[215px] h-[64px] border rounded-[15px] 
                     text-xl border-black"
@@ -60,7 +59,7 @@ const page = () => {
               <p className="font-light">Lost Your Password?</p>
             </div>
           </div>
-          <div className="w-[608px] sm:w-[400px] h-[630px] flex flex-col justify-between p-16">
+          <div className="lg:w-[608px] h-[630px] flex flex-col justify-between p-16">
             <div>
               <p className="font-semibold text-[36px] leading-[54px]">
                 Register
@@ -68,9 +67,9 @@ const page = () => {
             </div>
             <div className="h-[121px] flex flex-col justify-between">
               <label className="font-medium">Email address</label>
-              <input className="w-[423px] sm:w-[400px] h-[75px] border-2 rounded-[10px]"></input>
+              <input className="lg:w-[423px] h-[75px] border-2 rounded-[10px]"></input>
             </div>
-            <div className="h-[148px] sm:w-[400px] flex flex-col justify-between">
+            <div className="lg:h-[148px] flex flex-col justify-between">
               <p className="mb-4">
                 A link to set a new password will be sent to your email address.
                 </p>
@@ -80,7 +79,7 @@ const page = () => {
                 for other purposes described in our <b>privacy policy.</b>
               </p>
             </div>
-            <div className="h-[64px] flex w-[423px] sm:w-[400px] justify-between items-center">
+            <div className="h-[64px] flex lg:w-[423px] justify-between items-center">
               <button
                 className="w-[215px] h-[64px] border rounded-[15px] 
                     text-xl border-black"

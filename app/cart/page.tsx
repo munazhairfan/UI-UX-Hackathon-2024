@@ -21,35 +21,33 @@ const page = () => {
             </div>
             </div>
         </div>
-        <div className='w-full h-[525px] sm:h-[800px] md:h-[800px] lg:h-[800px]
-         flex justify-between sm:px-[40px] md:px-[40px] lg:px-[20px]
-        px-[100px] py-[72px] sm:flex-col md:flex-col lg:flex-col'>
-          <div className='w-[817px] sm:w-[420px] md:w-[520px] lg:w-[620px]
-           h-[216px] flex flex-col justify-between'>
+        <div className='w-full lg:h-[525px]
+         flex xl:justify-between justify-evenly xl:px-[100px] py-[72px] xs:flex-col lg:flex-row'>
+          <div className='lg:w-[817px] h-[216px] flex flex-col justify-between'>
             <div className='w-full h-[55px] bg-pinki'>
-              <ul className='flex font-medium justify-evenly items-center h-[55px]'>
+              <ul className='flex font-medium justify-evenly items-center h-[55px] xs:text-xs lg:text-base'>
                 <li>Product</li>
                 <li>Price</li>
                 <li>Quantity</li>
-                <li>Subtotal</li>
+                <li className='xs:hidden lg:flex'>Subtotal</li>
               </ul>
             </div>
-            <div className='w-full h-[120px] flex justify-between items-center'>
-                <div className='w-[106px] h-[106px] bg-hamza rounded-[10px] 
-                flex items-center'>
+            <div className='w-full h-[120px] flex justify-between items-center xs:text-[10px] lg:text-base
+            xs:px-4 lg:px-0'>
+                <div className='lg:w-[106px] xs:w-11 xs:h-11 lg:h-[106px] bg-hamza rounded-[10px] 
+                flex items-center xs:hidden lg:flex'>
                   <Image src={'/images/Asgaard sofa.png'} alt='sofa'
                   height={106} width={106}></Image>
                 </div>
-                <p className='text-hackathon sm:hidden'>Asgaard sofa</p>
-                <p className='text-hackathon sm:text-[12px]'>Rs. 250,000.00</p>
+                <p className='text-hackathon'>Asgaard sofa</p>
+                <p className='text-hackathon '>Rs. 250,000.00</p>
                 <div className='w-8 h-8 rounded-[5px] border-2 flex justify-center items-center'>1</div>
-                <p className=' sm:text-[12px]'>Rs. 250,000.00</p>
+                <p className='xs:hidden lg:flex'>Rs. 250,000.00</p>
                 <Image src={'/images/delete.png'} alt='remove'
-                height={22} width={21} className='w-[21] h-[22] sm:hidden md:hidden
-                lg:hidden'></Image>
+                height={22} width={21} className='w-[21] h-[22]'></Image>
             </div>
           </div>
-        <div className='w-[393px] h-[390px] border bg-pinki px-[75px] 
+        <div className='lg:w-[393px] h-[390px] border bg-pinki lg:px-[75px] xs:px-[20px]
         flex flex-col justify-around pb-20'>
           <p className='font-semibold text-[32px] text-center'>Cart Totals</p>
           <div className='w-full flex justify-between'>

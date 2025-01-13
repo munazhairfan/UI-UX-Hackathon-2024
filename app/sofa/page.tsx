@@ -6,9 +6,8 @@ const page = () => {
   return (
     <div className="font-poppins">
       <Header />
-      <div className="px-[100px] sm:px-[40px]
-       md:px-[40px] lg:px-[40px]">
-        <div className="w-[350px] h-[100px] flex justify-between items-center">
+      <div className="xl:px-[100px]">
+        <div className="sm:w-[350px] h-[100px] flex justify-between items-center xs:mx-auto xl:mx-0">
           <p className="text-hackathon">Home</p>
           <Image
             src={"/images/arrow.png"}
@@ -29,10 +28,9 @@ const page = () => {
           <p>Asgaard sofa</p>
         </div>
         {/* main */}
-        <div className="w-full h-[820px] py-[35px] flex justify-between sm:h-[1500px]
-        sm:flex-col md:h-[1500px] md:flex-col lg:h-[1500px] lg:flex-col">
-          <div className="w-[530px] h-[500px] flex justify-between sm:flex-col">
-            <div className="w-[76px] h-[416px] sm:w-[400px] sm:h-[180px] flex flex-col justify-between sm:flex-row">
+        <div className="w-full lg:h-[820px] py-[35px] flex xl:justify-between justify-evenly xs:flex-col lg:flex-row">
+          <div className="lg:w-[530px] lg:h-[500px] flex lg:justify-between xs:justify-center">
+            <div className="w-[76px] h-[416px] flex flex-col justify-between xs:hidden lg:flex">
               <div
                 className="w-[76px] h-20 rounded-[10px] bg-pinki
                      flex justify-center items-center"
@@ -79,8 +77,8 @@ const page = () => {
               </div>
             </div>
             <div
-              className="w-[423px] h-[500px] rounded-[10px] bg-pinki
-                flex justify-center items-center"
+              className="lg:w-[423px] lg:h-[500px] rounded-[10px] bg-pinki
+                flex justify-center items-center xs:size-80"
             >
               <Image
                 src={"/images/Asgaard sofa.png"}
@@ -91,7 +89,7 @@ const page = () => {
             </div>
           </div>
           {/* 2 */}
-          <div className="w-[607px] h-[731px]">
+          <div className="md:w-[607px] lg:h-[731px] xs:ml-2 lg:ml-0">
             <div className="w-full h-[589px] border-b pb-10 justify-between flex flex-col">
               <p className="text-[42px] leading-[63px]">Asgaard sofa</p>
               <p className="font-medium leading-[36px] text-[24px] text-hackathon">
@@ -135,7 +133,7 @@ const page = () => {
                   5 Customer Review
                 </div>
               </div>
-              <p className="text-[13px] leading-5 w-[424px]">
+              <p className="text-[13px] leading-5 lg:w-[424px]">
                 Setting the bar as one of the loudest speakers in its class, the
                 Kilburn is a compact, stout-hearted hero with a well-balanced
                 audio which boasts a clear midrange and extended highs for a
@@ -219,11 +217,10 @@ const page = () => {
           </div>
         </div>
         {/* 3 */}
-        <div className="w-full sm:w-[400px] h-[744px] sm:h-[1100px] md:h-[1100px] lg:h-[1300px]
+        <div className="w-full lg:h-[744px]
         py-12 flex flex-col justify-between">
-          <div className="w-[649px] h-[36px] sm:h-[110px] md:h-[110px] lg:h-[110px]
-           flex justify-between ml-auto mr-auto sm:flex-col md:flex-col lg:flex-col
-           md:items-center lg:items-center">
+          <div className="lg:w-[649px] lg:h-[36px]
+           flex justify-between lg:mx-auto xs:flex-col lg:flex-row">
             <p className="text-[24px] leading-[36px]">Description</p>
             <p className="text-[24px] leading-[36px] text-hackathon">
               Additional Information
@@ -232,7 +229,7 @@ const page = () => {
               Reviews [5]
             </p>
           </div>
-          <p className="w-[1026px] sm:w-[400px] md:w-[400px] lg:w-[400px] 
+          <p className="lg:w-[1026px]
            mr-auto ml-auto text-hackathon">
             Embodying the raw, wayward spirit of rock n roll, the Kilburn
             portable active stereo speaker takes the unmistakable look and sound
@@ -247,16 +244,14 @@ const page = () => {
             to your personal preferences while the guitar-influenced leather
             strap enables easy and stylish travel.
           </p>
-          <div className="h-[348px] w-[1225px] flex justify-between sm:flex-col sm:h-[500px]
-          md:flex-col md:h-[500px] lg:flex-col lg:h-[800px]">
-            <div className="w-[605px] h-[348px] flex justify-center
-            sm:w-[400px] sm:h-[200px] items-center bg-pinki
-            lg:w-[650px] md:h-[200px] md:w-[400px] lg:h-[300px]">
+          <div className="lg:h-[348px] xs:h-[500px] xl:w-[1225px] flex xl:justify-between xs:flex-col md:flex-row
+          md:justify-evenly">
+            <div className="xl:w-[605px] xl:h-[348px] xs:size-80 md:size-[500px]
+             flex justify-center items-center bg-pinki">
                 <Image src={'/images/f1.png'} height={348} width={605} alt="furniture"></Image>
             </div>
-            <div className="w-[605px] h-[348px] flex justify-center
-            sm:w-[400px] sm:h-[200px] items-center bg-pinki
-            lg:w-[650px] md:h-[200px] md:w-[400px] lg:h-[300px]">
+            <div className="xl:w-[605px] xl:h-[348px] xs:size-80 md:size-[500px]
+             flex justify-center items-center bg-pinki">
                 <Image src={'/images/f2.png'} height={348} width={605} alt="furniture"></Image>
             </div>
           </div>
@@ -264,16 +259,13 @@ const page = () => {
       </div>
         <hr></hr>
               {/* div 3 */}
-      <div className="w-full h-[777px] sm:h-[1690px] flex flex-col justify-evenly
-      md:h-[1690px] lg:h-[1690px]">
+      <div className="w-full lg:h-[777px] flex flex-col justify-evenly">
         {/* text div */}
         <div className="w-full h-[85px] flex flex-col justify-between">
           <p className="font-medium text-[36px] leading-[54px] text-center">Related Products</p>
         </div>
         {/* furniture div */}
-        <div className="w-full flex justify-evenly sm:flex-col sm:h-[1600px]
-         md:h-[1600px] lg:h-[1600px] sm:p-20 md:p-[130px] lg:p-[200px]
-        md:flex-col lg:flex-col">
+        <div className="w-full flex justify-evenly xs:flex-col lg:flex-row xs:items-center">
           {/* one */}
             <div className="w-[287px] h-[360px]">
             <div className="w-[287px] h-[260px] flex justify-center items-center flex-col">
@@ -299,7 +291,7 @@ const page = () => {
           <p className="font-medium leading-[48px] text-[24px]">Rs. 25,000.00</p>
           </div>
           {/* four */}
-            <div className="w-[287px] h-[397px]">
+            <div className="w-[287px] h-[397px] lg:hidden xl:flex">
             <div className="w-[287px] h-[287px] flex justify-center items-center flex-col">
               <Image src={'/images/four.png'} alt="table" height={287} width={287}></Image>
           </div>

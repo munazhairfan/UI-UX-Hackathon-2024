@@ -33,12 +33,14 @@ const config: Config = {
         instagram: "url('/images/insta-bg.png')",
         components_bg: "url('/images/components-bg.png')",
       },
-      screens:{
-        'sm' : {'max': '480px'},
-        'md' : {'max': '481px'},
-        'lg' : {'max': '769px'},
-        'xl' : {'max': '1025px'},
-      }
+      screens: {
+			'xs': '320px', 
+			'sm': '480px', 
+			'md': '768px', 
+			'lg': '1024px', 
+			'xl': '1440px',
+			// '2xl': '1440px',
+		  }
     },
   },
   plugins: [],

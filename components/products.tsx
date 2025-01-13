@@ -6,8 +6,8 @@ const products = () => {
   return (
     <div className='px-8'>
         {/* row 1 */}
-            <div className="w-full flex justify-evenly sm:flex-col sm:px-24
-            md:flex-col md:px-40 lg:flex-col lg:px-60">
+            <div className="w-full flex justify-evenly xs:flex-col
+            xl:flex-row xs:items-center">
           {/* one */}
             <div className="w-[287px] h-[397px]">
             <div className="w-[287px] h-[260px] flex justify-center items-center flex-col">
@@ -42,8 +42,8 @@ const products = () => {
           </div>
           </div>
           {/* row 2 */}
-          <div className="w-full flex justify-evenly sm:flex-col sm:px-24
-          md:flex-col md:px-40 lg:flex-col lg:px-60">
+          <div className="w-full flex justify-evenly xs:flex-col
+          xl:flex-row xs:items-center">
           {/* one */}
             <div className="w-[287px] h-[397px]">
             <div className="w-[287px] h-[287px] flex justify-center items-center flex-col">
@@ -78,8 +78,8 @@ const products = () => {
           </div>
           </div>
           {/* row 3 */}
-          <div className="w-full flex justify-evenly sm:flex-col sm:px-24
-          md:flex-col md:px-40 lg:flex-col lg:px-60">
+          <div className="w-full flex justify-evenly xs:flex-col
+          xl:flex-row xs:items-center">
           {/* one */}
             <div className="w-[287px] h-[397px]">
             <div className="w-[287px] h-[287px] flex justify-center items-center flex-col">
@@ -114,8 +114,8 @@ const products = () => {
           </div>
           </div>
           {/* row 4 */}
-          <div className="w-full flex justify-evenly sm:flex-col sm:px-24
-          md:flex-col md:px-40 lg:flex-col lg:px-60">
+          <div className="w-full flex justify-evenly xs:flex-col
+          xl:flex-row xs:items-center">
           {/* one */}
             <div className="w-[287px] h-[397px]">
             <div className="w-[287px] h-[287px] flex justify-center pr-8 items-center flex-col">

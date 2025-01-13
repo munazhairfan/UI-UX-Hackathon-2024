@@ -33,13 +33,13 @@ const page = () => {
           </div>
         </div>
         {/* main */}
-                <div className='w-full h-[1144px] sm:h-[1700px] pt-16'>
+                <div className='w-full lg:h-[1144px] pt-16'>
         <p className='font-semibold text-[36px] leading-[54px] text-center'>Get In Touch With Us</p>
             <p className='text-center text-hackathon'>For More Information About Our Product & Services. Please Feel Free To Drop Us 
                 <br></br> An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
-        <div className='w-full pt-[98px] sm:px-[30px]
-        md:px-[45px] lg:px-[60px] px-[191px] flex sm:flex-col justify-between sm:justify-center'>
-            <div className='w-[393px] h-[537px] sm:h-[1700] flex flex-col px-[54px] py-[62px] justify-between'>
+        <div className='w-full lg:pt-[98px]
+        lg:px-[191px] flex justify-between xs:flex-col lg:flex-row'>
+            <div className='lg:w-[393px] h-[537px] flex flex-col px-[54px] py-[62px] justify-between'>
                 {/* 1 */}
                 <div>
                 <div className='flex'>
@@ -69,7 +69,7 @@ const page = () => {
                 </div>
             </div>
             
-                <div className='h-[923px] w-[600px] sm:w-[400px] pt-[25px] pl-[70px] pr-[30px] pb-[70px] flex flex-col justify-between'>
+                <div className='h-[923px] lg:w-[600px] pt-[25px] pl-[70px] pr-[30px] pb-[70px] flex flex-col justify-between'>
                     <div className='h-[121px] w-full flex justify-between flex-col'>
                         <label className='font-medium'>Your name</label>
                         <input placeholder='Abc' className='w-full border-2 h-[75px] rounded-[10px]'></input>
@@ -86,7 +86,7 @@ const page = () => {
                         <label className='font-medium'>Message</label>
                         <input placeholder='Hi! i&apos;d like to ask about' className='w-full border-2 h-[120px] rounded-[10px]'></input>
                     </div>
-                    <div className='w-full h-12 flex sm:justify-center'>
+                    <div className='w-full h-12 flex'>
                         <button className='w-[237px] h-12 border border-black rounded-[15px] 
                         flex justify-center items-center'>Submit</button>
                     </div>

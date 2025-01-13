@@ -25,7 +25,7 @@ const page = () => {
         </div>
         {/* div 2 */}
         <div className='w-full h-[130px] sm:flex-col bg-fahad flex items-center
-         justify-around mt-10 md:flex-col lg:flex-col'>
+         justify-around mt-10 md:flex-col lg:flex-col xs:hidden lg:flex'>
             <div className='h-7 flex items-center w-4/12 sm:w-full justify-between
             md:w-[500px] lg:w-[500px]'>
                 <Image src={'/images/Vector.png'} alt='filter'
@@ -53,14 +53,14 @@ const page = () => {
         {/* div 3 */}
         <Products/>
         {/* div 4 */}
-        <div className='w-[392px] h-[60px] flex justify-between mx-auto'>
-            <button className='w-[60px] h-[60px] rounded-[10px] bg-hamza
+        <div className='lg:w-[392px] h-[60px] flex lg:justify-between mx-auto xs:justify-evenly'>
+            <button className='lg:w-[60px] lg:h-[60px] xs:size-11 rounded-[10px] bg-hamza
              flex justify-center items-center'>1</button>
-            <button className='w-[60px] h-[60px] rounded-[10px] bg-[#FFF9E5]
+            <button className='lg:w-[60px] lg:h-[60px] xs:size-11 rounded-[10px] bg-[#FFF9E5]
              flex justify-center items-center'>2</button>
-            <button className='w-[60px] h-[60px] rounded-[10px] bg-[#FFF9E5]
+            <button className='lg:w-[60px] lg:h-[60px] xs:size-11 rounded-[10px] bg-[#FFF9E5]
              flex justify-center items-center'>3</button>
-            <button className='w-[98px] h-[60px] rounded-[10px] bg-[#FFF9E5]
+            <button className='lg:w-[98px] lg:h-[60px] xs:size-11 rounded-[10px] bg-[#FFF9E5]
              flex justify-center items-center'>Next</button>
         </div>
       </div>

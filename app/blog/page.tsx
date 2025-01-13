@@ -34,53 +34,52 @@ const page = () => {
           </div>
         </div>
         {/* main */}
-        <div className="w-full px-[100px] py-[100px] sm:px-[30px] sm:py-[30px]
-        md:px-[50px] md:py-[50px] lg:px-[40px] lg:py-[40px]
-         flex justify-between sm:flex-col md:flex-col lg:flex-col">
+        <div className="w-full lg:px-[100px] lg:py-[100px]
+         flex xl:justify-between xs:justify-center">
             {/* blog one */}
             <div>
-          <div className="w-[830px] sm:w-[400px] md:w-[500px] lg:w-[600px] flex flex-col gap-5">
-            <div className="w-full">
+            <div className="lg:w-[830px] flex flex-col gap-5 mt-10 xs:justify-center px-2">
+            <div className="lg:w-full justify-center">
               <Image
                 src={"/images/b1.png"}
-                alt="blog 1"
+                alt="blog 3"
                 width={830}
                 height={500}
                 className="rounded-[15px]"
               ></Image>
             </div>
-            <div className="w-[400px] flex justify-between">
-              <div className="flex w-[100px] justify-between">
+            <div className="lg:w-[400px] flex lg:justify-between xs:justify-evenly">
+              <div className="flex lg:w-[100px] justify-between items-center">
                 <Image
                   src={"/images/user.png"}
                   alt="user"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">Admin</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">Admin</p>
               </div>
-              <div className="flex w-[150px] justify-between">
+              <div className="flex lg:w-[150px] justify-between items-center">
                 <Image
                   src={"/images/calendar.png"}
                   alt="calendar"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">14 Oct 2022</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">14 Oct 2022</p>
               </div>
-              <div className="flex w-[100px] justify-between">
+              <div className="flex lg:w-[100px] justify-between items-center">
                 <Image
                   src={"/images/tag.png"}
                   alt="tag"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">Wood</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">Wood</p>
               </div>
             </div>
             {/* paragraph */}
             <div className="flex flex-col gap-3">
-              <p className="font-semibold text-4xl">
+              <p className="font-semibold lg:text-4xl text-2xl">
                 Going all-in with millennial design
               </p>
               <p className="text-hackathon">
@@ -99,54 +98,53 @@ const page = () => {
               </p>
             </div>
             <div>
-            <Link href={'/blog'} className="w-[112px] leading-[36px] border-b 
+            <Link href={'/blog'} className="lg:w-[112px] leading-[36px] border-b 
                 border-black cursor-pointer">Read More</Link>
             </div>
           </div>
           {/* blog two */}
-          <div className="w-[830px] flex flex-col gap-5 mt-10 sm:w-[400px]
-          md:w-[500px] lg:w-[600px]">
-            <div className="w-full">
+          <div className="lg:w-[830px] flex flex-col gap-5 mt-10 xs:justify-center px-2">
+            <div className="lg:w-full justify-center">
               <Image
                 src={"/images/b2.png"}
-                alt="blog 2"
+                alt="blog 3"
                 width={830}
                 height={500}
                 className="rounded-[15px]"
               ></Image>
             </div>
-            <div className="w-[400px] flex justify-between">
-              <div className="flex w-[100px] justify-between">
+            <div className="lg:w-[400px] flex lg:justify-between xs:justify-evenly">
+              <div className="flex lg:w-[100px] justify-between items-center">
                 <Image
                   src={"/images/user.png"}
                   alt="user"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">Admin</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">Admin</p>
               </div>
-              <div className="flex w-[150px] justify-between">
+              <div className="flex lg:w-[150px] justify-between items-center">
                 <Image
                   src={"/images/calendar.png"}
                   alt="calendar"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">14 Oct 2022</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">14 Oct 2022</p>
               </div>
-              <div className="flex w-[100px] justify-between">
+              <div className="flex lg:w-[100px] justify-between items-center">
                 <Image
                   src={"/images/tag.png"}
                   alt="tag"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">Handmade</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">Wood</p>
               </div>
             </div>
             {/* paragraph */}
             <div className="flex flex-col gap-3">
-              <p className="font-semibold text-4xl">
+              <p className="font-semibold lg:text-4xl text-2xl">
                 Exploring new ways of decorating
               </p>
               <p className="text-hackathon">
@@ -165,14 +163,13 @@ const page = () => {
               </p>
             </div>
             <div>
-            <Link href={'/blog'} className="w-[112px] leading-[36px] border-b 
+            <Link href={'/blog'} className="lg:w-[112px] leading-[36px] border-b 
                 border-black cursor-pointer">Read More</Link>
             </div>
           </div>
           {/* blog three */}
-          <div className="w-[830px] flex flex-col gap-5 mt-10 sm:w-[400px]
-          md:w-[500px] lg:w-[600px]">
-            <div className="w-full">
+          <div className="lg:w-[830px] flex flex-col gap-5 mt-10 xs:justify-center px-2">
+            <div className="lg:w-full justify-center">
               <Image
                 src={"/images/b3.png"}
                 alt="blog 3"
@@ -181,38 +178,38 @@ const page = () => {
                 className="rounded-[15px]"
               ></Image>
             </div>
-            <div className="w-[400px] flex justify-between">
-              <div className="flex w-[100px] justify-between">
+            <div className="lg:w-[400px] flex lg:justify-between xs:justify-evenly">
+              <div className="flex lg:w-[100px] justify-between items-center">
                 <Image
                   src={"/images/user.png"}
                   alt="user"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">Admin</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">Admin</p>
               </div>
-              <div className="flex w-[150px] justify-between">
+              <div className="flex lg:w-[150px] justify-between items-center">
                 <Image
                   src={"/images/calendar.png"}
                   alt="calendar"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">14 Oct 2022</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">14 Oct 2022</p>
               </div>
-              <div className="flex w-[100px] justify-between">
+              <div className="flex lg:w-[100px] justify-between items-center">
                 <Image
                   src={"/images/tag.png"}
                   alt="tag"
                   width={28}
                   height={28}
                 ></Image>
-                <p className="text-hackathon text-xl">Wood</p>
+                <p className="text-hackathon lg:text-xl xs:text-sm">Wood</p>
               </div>
             </div>
             {/* paragraph */}
             <div className="flex flex-col gap-3">
-              <p className="font-semibold text-4xl">
+              <p className="font-semibold lg:text-4xl text-2xl">
                 Handmade pieces that took time to make
               </p>
               <p className="text-hackathon">
@@ -231,13 +228,13 @@ const page = () => {
               </p>
             </div>
             <div>
-            <Link href={'/blog'} className="w-[112px] leading-[36px] border-b 
+            <Link href={'/blog'} className="lg:w-[112px] leading-[36px] border-b 
                 border-black cursor-pointer">Read More</Link>
             </div>
           </div>
           </div>
           {/* 2 */}
-          <div className="w-[320px] flex flex-col gap-10">
+          <div className="w-[320px] flex-col gap-10 hidden xl:flex">
             <div className="w-full h-[55px] border border-gray-400 rounded-[15px] flex items-center">
                 <input className="w-11/12 h-[50px] rounded-[15px]"></input>
                 <Image src={'/images/search.png'} alt="search"
@@ -323,14 +320,14 @@ const page = () => {
           </div>
         </div>
         {/* buttons */}
-        <div className='w-[392px] h-[60px] flex justify-between mx-auto'>
-            <button className='w-[60px] h-[60px] rounded-[10px] bg-hamza
+        <div className='lg:w-[392px] h-[60px] flex lg:justify-between mx-auto xs:justify-evenly'>
+            <button className='lg:w-[60px] lg:h-[60px] xs:size-11 rounded-[10px] bg-hamza
              flex justify-center items-center'>1</button>
-            <button className='w-[60px] h-[60px] rounded-[10px] bg-[#FFF9E5]
+            <button className='lg:w-[60px] lg:h-[60px] xs:size-11 rounded-[10px] bg-[#FFF9E5]
              flex justify-center items-center'>2</button>
-            <button className='w-[60px] h-[60px] rounded-[10px] bg-[#FFF9E5]
+            <button className='lg:w-[60px] lg:h-[60px] xs:size-11 rounded-[10px] bg-[#FFF9E5]
              flex justify-center items-center'>3</button>
-            <button className='w-[98px] h-[60px] rounded-[10px] bg-[#FFF9E5]
+            <button className='lg:w-[98px] lg:h-[60px] xs:size-11 rounded-[10px] bg-[#FFF9E5]
              flex justify-center items-center'>Next</button>
         </div>
       </div>
