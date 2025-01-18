@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       {/* div 2 */}
      <div className="w-full h-[672px] flex justify-center bg-fahad
-       sm:flex-col md:flex-col lg:flex-col sm:h-[1200px] md:h-[1200px] lg:h-[1200px]
+       sm:flex-col md:flex-col lg:flex-row sm:h-[1200px] md:h-[1200px] lg:h-[1200px]
         sm:p-6 md:p-6 lg:p-6">
         <div className="w-[605px] h-[562px] justify-between lg:px-14">
           <div className="w-[550px] h-[350px] sm:w-[430px] lg:w-[650px]">
@@ -36,7 +36,7 @@ export default function Home() {
           <p className="font-medium text-[48px] leading-[84px]">Side table</p>
           <p className="font-medium text-[28px] border-b-2 leading-[54px] border-black w-[155px]">View More</p>
         </div>
-        <div className="w-[605px] h-[562px] justify-between lg:px-14">
+        <div className="w-[605px] h-[562px] justify-between lg:px-14 xs:hidden md:flex flex-col">
           <div className="w-[550px] h-[350px] sm:w-[430px] lg:w-[650px]">
             <Image src={'/images/sofa.png'} alt="sofa"
             width={550} height={462}></Image>
