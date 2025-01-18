@@ -25,10 +25,10 @@ export default function Home() {
         </div>
       </div>
       {/* div 2 */}
-     <div className="w-full h-[672px] flex justify-center bg-fahad
+     <div className="w-full h-[672px] lg:flex justify-center bg-fahad
        sm:flex-col md:flex-col lg:flex-row sm:h-[1200px] md:h-[1200px] lg:h-[1200px]
-        sm:p-6 md:p-6 lg:p-6">
-        <div className="w-[605px] h-[562px] justify-between lg:px-14">
+        sm:p-6 md:p-6 lg:p-6 hidden">
+        <div className="w-[605px] h-[562px] justify-evenly lg:px-14">
           <div className="w-[550px] h-[350px] sm:w-[430px] lg:w-[650px]">
             <Image src={'/images/side table.png'} alt="side table"
             width={550} height={462}></Image>
