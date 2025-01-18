@@ -25,8 +25,8 @@ export default function Home() {
         </div>
       </div>
       {/* div 2 */}
-     <div className="w-full h-[672px] lg:flex justify-center bg-fahad
-       sm:flex-col md:flex-col lg:flex-row sm:h-[1200px] md:h-[1200px] lg:h-[1200px]
+     <div className="w-full h-[672px] xl:flex justify-center bg-fahad
+       sm:flex-col md:flex-col lg:flex-row
         sm:p-6 md:p-6 lg:p-6 hidden">
         <div className="w-[605px] h-[562px] justify-evenly lg:px-14">
           <div className="w-[550px] h-[350px] sm:w-[430px] lg:w-[650px]">
