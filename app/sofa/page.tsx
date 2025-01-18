@@ -291,7 +291,7 @@ const page = () => {
           <p className="font-medium leading-[48px] text-[24px]">Rs. 25,000.00</p>
           </div>
           {/* four */}
-            <div className="w-[287px] h-[397px] lg:hidden xl:flex">
+            <div className="w-[287px] h-[397px] lg:hidden xl:flex flex-col">
             <div className="w-[287px] h-[287px] flex justify-center items-center flex-col">
               <Image src={'/images/four.png'} alt="table" height={287} width={287}></Image>
           </div>
